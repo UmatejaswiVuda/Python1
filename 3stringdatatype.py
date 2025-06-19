@@ -250,7 +250,22 @@ print(str31)
 
 # SLICING
 
-str33 =  'MANORAMA'
-print(str33[0:3:1])
+# str33 =  'MANORAMA'
+# print(str33[0:3:1])
 
-print(str33[4:7:1])
+# print(str33[4:7:1])
+
+#########################
+# str32 = "MANORAMA"
+# print(str32[-8:-4:1])
+
+# print(str32[-4::1])
+
+# print(str32[-8:-1:2])
+
+# print(str32[6:2:-1])
+
+# print(str32[-2:-6:-1])
+
+# print(str32[-1:-8:-2])
+
