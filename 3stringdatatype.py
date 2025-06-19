@@ -79,7 +79,7 @@
 
 # SEARCH & REPLACE METHODS:-
 
-str1 = 'Hello Buddy, This is Shiv here, luck..!'
+# str1 = 'Hello Buddy, This is Shiv here, luck..!'
 
 # find()
 # print(str1.find('B'))
@@ -130,5 +130,127 @@ str3 = 'My Dear Friend'
 # print(str3.endswith('My Dear Friend')) #True
 
 
+# isalpha()
+# str1 = 'grapes'
+# print(str1.isalpha())
+
+# str2 = 'Grapes'
+# print(str2.isalpha())
+
+# str3 = 'Grape@'
+# print(str3.isalpha())
+
+# str4 = 'Grape12223'
+# print(str4.isalpha())
+
+# str5 = 'Grapes@123'
+# print(str5.isalpha())
+
+# isdigit()
+# str11 = '12345'
+# print(str11.isdigit())
+
+# str12 = 'g@123'
+# print(str12.isdigit())
+
+# str13 = '123.45'
+# print(str13.isdigit())
+
+# str14 = '12 23 34 56'
+# print(str14.isdigit())
+
+# isalnum()
+
+# str15 = '123456qwert'
+# print(str15.isalnum())
+
+# str16 = 'Ganesh@123'
+# print(str16.isalnum())
+
+# str17 = '12356789'
+# print(str17.isalnum())
+
+# str18 = 'asdfghj'
+# print(str18.isalnum())
+
+# isspace()
+# str19 = '     .'
+# print(str19.isspace())
 
 
+#islower()
+# str20 = 'asdfgh'
+# print(str20.islower())
+
+# str21 = 'asdfghj234'
+# print(str21.islower())
+
+# str22 = 'qertyu@134'
+# print(str21.islower())
+
+# str23 = 'ASDFGHJ'
+# print(str23.islower())
+
+# str24 = 'XCVBNM'.lower()
+# print(str24.islower())
+
+# str25 = 'sdfghj'.upper()
+# print(str25.islower())
+
+# isupper()
+# str26 = 'asdfghj'
+# print(str26.isupper())
+
+# str27 = 'ERTYU'
+# print(str27.isupper())
+
+# str28 = '2345678'
+# print(str28.isupper())
+
+
+# istitle()
+
+# str29 = 'Python Is Great'
+# print(str29.istitle())
+
+# str30 = 'I Am 29 Years Old'
+# print(str30.istitle())
+
+####################################
+
+# strip()
+
+str31 = '    Helloo    Bujji     '
+print(str31)
+
+# print(str31.strip())
+# print(str31.lstrip())
+# print(str31.rstrip())
+
+#######################################
+
+# INDEXING 
+    # Positive Indexing:-
+        # positive indexing start from 0
+        # positive indexing goes left to right
+    
+    # Negative Indexing
+        # negative indexing starts from -1
+        # negative indexing goes right to left
+        
+
+# str32 = 'Where what there is will, there is will a way'
+# print(str32.find('will'))
+# print(str32.index('will'))
+# print(str32.rfind('will'))
+
+# print(str32.rindex('will'))
+
+##############################3
+
+# SLICING
+
+str33 =  'MANORAMA'
+print(str33[0:3:1])
+
+print(str33[4:7:1])
