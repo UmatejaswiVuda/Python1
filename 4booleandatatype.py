@@ -3,12 +3,12 @@
     # False  ----> 0
     
 # Arithmetic Operation on Booleans:-
-print(True + True + False *(True + True))
+# print(True + True + False *(True + True))
 
-x = 5
-print(x == 15)
+# x = 5
+# print(x == 15)
 
-y = True
+# y = True
 
 # print(y * y)
 
@@ -51,3 +51,6 @@ z = 'krish'
 
 # print(z * 5)
 # print('krishkrishkrish'/2)
+print(ord('$'))
+
+print(bin(65))
