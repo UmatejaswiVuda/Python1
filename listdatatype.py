@@ -87,4 +87,121 @@ height = 5.9
 # print(list_alpha[0::3])
 
 
+##############################################
 
+# BUILT IN METHODS OF LIST:-
+
+list1 = [12, 23, 34, 45, 56]
+
+# append()
+# list1.append(67)
+# list1.append(False)
+# list1.append('jam')
+# # list1.append(90, 89) #TypeError: list.append() takes exactly one argument (2 given)
+# print(list1)
+
+########
+# extend()
+# list1.extend([100, 200, 300, 400])
+# print(list1)
+
+# list1.extend(True, False, 0, 1) #TypeError: list.extend() takes exactly one argument (4 given)
+# list1.extend((True, False, 0, 1))
+# print(list1)
+
+# list1.extend({1.2, 2.3, 3.4})
+# print(list1)
+
+# list1.extend('APPLE')
+# print(list1)
+
+####################
+list1 = [12, 23, 34, 45, 56]
+
+# insert()
+
+# list1.insert(0,6)
+# list1.insert(3, 100)
+# list1.insert(-4, 500)
+
+# print(list1)
+
+############################################
+list1 = [12, 23, 34, 45, 56]
+
+# remove()
+
+# list1.remove(23)
+# # list1.remove(120)  #ValueError: list.remove(x): x not in list
+# list1.remove(56)
+# print(list1)
+
+
+list1 = [12, 23, 34, 45, 56]
+
+# pop()
+# list1.pop(3)
+# print(list1.pop())
+# print(list1)
+
+# list1.clear()
+# print(list1)
+
+#################################################333
+
+# list2 = ['apple', 23, 67, True, 1, [10, 2, 3, 4], 'apple', 67, 1, 'apple']
+
+# print(list2)
+
+# print(list2.index('apple'))
+# print(list2.index(67))
+
+# print(list2.rindex(67))
+# print(list2.find(1))
+
+#count()
+
+# print(list2.count('apple'))
+# print(list2.count(1))
+
+
+#############################################
+
+list3 = [12, 5, 9, 2, 1, 90, 56, 100, 45]
+#sort()
+# list3.sort()  # for ascending
+# list3.sort(reverse=True)   # for descending
+# print(list3)
+
+
+# list4 = ['T', 'i', 'J', 'A', 'B', 'l', 'q', 'r']
+# list4.sort(reverse=True)
+# print(list4)
+
+
+# copy()
+# list5 = [0, 9, 8, 7, 6, 5]
+# lis6= list5.copy()
+# print(lis6)
+
+# print(id(list5))
+# print(id(lis6))
+
+l1 = [1, 2, 3]
+l2 = [5, 6, 7]
+
+# list concatination
+# print(l1 + l2)
+
+# list repetation
+# l3 = [12, 21, 23]
+# print(l3 * 4)
+
+
+################################
+
+# l5 = [12, 23, 34]
+# a, b, c = l5
+# print(a)
+# print(b)
+# print(c)
