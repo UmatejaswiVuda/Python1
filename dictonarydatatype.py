@@ -115,18 +115,217 @@ person2 ={
 
 # MODIFYING DICTIONARY:-
 
-employee_info = {
-    'empId': '10001',
-    'empPosition': 'Senior Engineer',
-    'empName': 'Vishal',
-    'empEmail': 'vishal@gmail.com',
-    'empSalary': 50000,
-    'empCompany': 'IBM'
+# employee_info = {
+#     'empId': '10001',
+#     'empPosition': 'Senior Engineer',
+#     'empName': 'Vishal',
+#     'empEmail': 'vishal@gmail.com',
+#     'empSalary': 50000,
+#     'empCompany': 'IBM'
+# }
+
+# employee_info['empEmail'] = 'vishal123@gmail.com'
+# employee_info['empCompany'] = 'Microsoft'
+# employee_info['empPf'] = 5000
+# employee_info['isMarried'] = True
+
+# print(employee_info)
+###################################################
+
+# REMOVE ELEMENTS FROM DICTIONARY:-
+
+dict1 = {
+    'name':'rahul',
+    'fav_game': 'football',
+    'fav_food': 'idli-sambhar',
+    'fav_destination': 'manali',
+    'best_friend': 'kiran'
+ }
+# print("Original Dictionary: ")
+# print(dict1)
+# print('----------------------------------------')
+
+# dict1.pop('best_friend')
+# print('updated dictionary: ')
+# print(dict1)
+
+# print('-------------------------------------')
+
+# dict1.pop('fav_food')
+# print('updated ditionary: ')
+# print(dict1)
+
+# del 
+# print('original dictionary: ')
+# print(dict1)
+
+# print('--------------------------------------------------')
+# del dict1['fav_game']
+# print('updated dictionary ')
+# print(dict1)
+
+# print('''''''''''''''''''''''''''''''''''''''''''''''''''''''')
+# del dict1['fav_food']
+# print('updated dictionary: ')
+# print(dict1)
+
+
+##########################################################
+
+# clear()
+
+# print('original dictionary: ')
+# print(dict1)
+# print('-----------------------------------------')
+
+# print('updated dictionary: ')
+# dict1.clear()
+# print(dict1)
+
+##########################################################
+
+# popitem()
+
+# print('original dictionary: ')
+# print(dict1)
+# print('----------------------------------------------')
+
+# print('updated dictionary: ')
+# dict1.popitem()
+# print(dict1)
+###############################################
+
+# dict2 = {
+#     'id': 1001,
+#     'cust_name': 'mallesh reddy',
+#     'cust_address': 'patancheruvu',
+#     'cust_email': 'mallu@gmail.com',
+#     'cust_phone': '1234567890',
+#     'cust_items':['Tea Powder','Milk packet', 'Rice', 'Jaggery', 'Oil', 'Chilly Powder', 'Salt']
+
+# }
+# print('Original Dictionary: ')
+# print(dict2)
+
+# print('----------------------------------------')
+# print('Only Keys of a dict2:')
+# # .keys()
+# print(dict2.keys())
+# print(type(dict2.keys()))
+# # dict_keys(['id', 'cust_name', 'cust_address', 'cust_email', 'cust_phone', 'cust_items'])
+# print('----------------------------------------------------')
+
+# # list 
+# print(list(dict2.keys()))
+
+# print('-----------------------------------------------')
+# # tuple
+# print(tuple(dict2.keys()))
+
+# print('-----------------------------------------------')
+# print(set(dict2.keys()))
+
+################################################################
+
+# .values()
+# dict2 = {
+#     'id': 1001,
+#     'cust_name': 'mallesh reddy',
+#     'cust_address': 'patancheruvu',
+#     'cust_email': 'mallu@gmail.com',
+#     'cust_phone': '1234567890',
+#     'cust_items':['Tea Powder','Milk packet', 'Rice', 'Jaggery', 'Oil', 'Chilly Powder', 'Salt']
+# }
+
+# print(dict2.values())
+# print(type(dict2.values()))
+
+# print('--------------------------------------------')
+
+# # list()
+# print(list(dict2.values()))
+
+# print('----------------------------------------------')
+# # tuple()
+# print(tuple(dict2.values()))
+
+# print('-----------------------------------------------')
+# #set()
+# # print(set(dict2.values()))  # TypeError: unhashable type: 'list'
+
+###################################################
+
+# dict2 = {
+#     'id': 1001,
+#     'cust_name': 'mallesh reddy',
+#     'cust_address': 'patancheruvu',
+#     'cust_email': 'mallu@gmail.com',
+#     'cust_phone': '1234567890',
+#     'cust_items':['Tea Powder','Milk packet', 'Rice', 'Jaggery', 'Oil', 'Chilly Powder', 'Salt']
+# }
+
+
+# # items()
+# print('original dictionary:')
+# print(dict2.items())
+# print(type(dict2.items()))
+
+# print('-----------------------------------')
+
+# # list()
+# print(list(dict2.items()))
+
+# print('--------------------------------------------')
+# # tuple()
+# print(tuple(dict2.items()))
+
+# # set()
+# print(set(dict2.items()))  #TypeError: unhashable type: 'list'
+
+# d1 = {1:1, 2:2, 3:3, 4:4, 5:5}
+# d2 = {'A':'A', 'B':'B', 'C':'C'}
+
+# d1.update(d2)
+# print(d1)
+
+##################################################
+
+dict1 = {
+    'person1':{
+        'name': 'ravi',
+        'age':12,
+        'parent': 'shwetha',
+        'city':'Deharadoon',
+        'result':{
+            'physics':50,
+            'chemistry':100,
+            'grade':'B'
+        }
+        },
+    'person2':{
+        'name': 'sameer',
+        'age':8,
+        'parent': 'Fathima',
+        'city':'Madurai',
+        'result':{
+            'physics':50,
+            'chemistry':100,
+            'grade':'B'
+        }
+        },
+    'person3':{
+        'name': 'antony',
+        'age':18,
+        'parent': 'mayra',
+        'city':'ladakh',
+        'result':{
+            'physics':50,
+            'chemistry':100,
+            'grade':'B'
+        }
+    }
 }
 
-employee_info['empEmail'] = 'vishal123@gmail.com'
-employee_info['empCompany'] = 'Microsoft'
-employee_info['empPf'] = 5000
-employee_info['isMarried'] = True
 
-print(employee_info)
+# access sameer chemistry marks:
+print(dict1['person1']['result']['chemistry']) 
