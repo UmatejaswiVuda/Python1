@@ -137,5 +137,67 @@ set2 = {12, 90, 67, 45}
 
 # SYMMETRIC DIFFERENCE
 
-set7 = set1 ^ set2
+# set7 = set1 ^ set2
+# print(set7)
+##################################################
+
+# SOME OTHER OPERATIONS ON SETS
+
+set1 = {100, 200, 300, 400, 500}
+set2 = {400, 500, 600, 700, 800}
+
+# # union
+# set1 | set2  # 100, 200, 300, 400, 500, 600, 700, 800
+# # intersection
+# set1 & set2  # 400, 500
+# # difference
+# set1 - set2  # 100, 200, 300
+# set2 - set1  # 600, 700, 800
+# # symmetric differece
+# set1 ^ set2  # 100, 200, 300, 600, 700, 800
+
+# print(set1.isdisjoint(set2))
+# print(set2.isdisjoint(set1))
+
+# set3 = {'A', 'B', 'C'}
+# set4 = {'a', 'b', 'c'}
+
+# print(set3.isdisjoint(set4))
+
+# set1.difference_update(set2)  # 100, 200, 300
+# # print(set1)
+
+# set2.difference_update(set1)
+# print(set2)  # 400, 500, 600, 700, 800
+
+
+# intersection_update
+# set1.intersection_update(set2)
+# print(set1)
+
+# set2.intersection_update(set1)
+# print(set2)
+
+
+# isSubste & isSuperset
+
+set5 = {'A', 'B', 'C'}
+set6 = {'A', 'B', 'C', 'D', "E", 'F'}
+
+# print(set6.issubset(set5))
+# print(set5.issubset(set6))
+# print(set5.issuperset(set6))
+# print(set6.issuperset(set5))
+
+set7 = {1, 2, 3}
+set8 = {3, 4, 5}
+
+set7-set8  # 1, 2
+set8-set7  # 4, 5
+# set7 ^ set8  # 1, 2, 4, 5
+
+# print(set7.symmetric_difference(set8))  # 1, 2, 4, 5
+set7.symmetric_difference_update(set8)
+
 print(set7)
+
