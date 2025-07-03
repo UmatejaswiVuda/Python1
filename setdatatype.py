@@ -197,7 +197,8 @@ set8-set7  # 4, 5
 # set7 ^ set8  # 1, 2, 4, 5
 
 # print(set7.symmetric_difference(set8))  # 1, 2, 4, 5
-set7.symmetric_difference_update(set8)
+# set7.symmetric_difference_update(set8)
 
-print(set7)
+# print(set7)
+
 
